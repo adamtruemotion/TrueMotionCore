@@ -1,0 +1,4 @@
+framework module TrueMotionCore {
+  header "TrueMotionCore-Swift.h"
+  requires objc
+}
