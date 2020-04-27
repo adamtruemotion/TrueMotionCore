@@ -4,9 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Core.h</key>
+		<key>Headers/TMCore.h</key>
 		<data>
-		PMSJovZ8AhfCStSjXTFZvSYDZRM=
+		/yIBdGA3trvNDDABUc2Hp1ZxiN4=
 		</data>
 		<key>Headers/TrueMotionCore-Swift.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/TrueMotionCore.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		bzXsKRnv/49pji5NxYP6nEsG/xg=
+		erYohC/y9zUzGeFRqtL7JpaTaMM=
 		</data>
 		<key>Modules/TrueMotionCore.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		bzXsKRnv/49pji5NxYP6nEsG/xg=
+		erYohC/y9zUzGeFRqtL7JpaTaMM=
 		</data>
 		<key>Modules/TrueMotionCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/TrueMotionCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JvVIl755YFAVDCK8Ye1YApyNIkc=
+		YptUci/Bbu1trKYW2r7d/S7lEGA=
 		</data>
 		<key>Modules/TrueMotionCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4FwbErQQrYBWm3QjgrwOmEqGKnI=
+		vS+EFGbnZzaRiC5jX7A/E+8Cr+k=
 		</data>
 		<key>Modules/TrueMotionCore.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/TrueMotionCore.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		JvVIl755YFAVDCK8Ye1YApyNIkc=
+		YptUci/Bbu1trKYW2r7d/S7lEGA=
 		</data>
 		<key>Modules/TrueMotionCore.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		4FwbErQQrYBWm3QjgrwOmEqGKnI=
+		vS+EFGbnZzaRiC5jX7A/E+8Cr+k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,11 +55,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Core.h</key>
+		<key>Headers/TMCore.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ZnravJN+yOFhrz6yg5osIJfR4GOyCPjEMkWpi+n9OA=
+			BO9nt6y2rIXNgNxGR8aBwSnF3JMtIio4OmcmSpHZWhM=
 			</data>
 		</dict>
 		<key>Headers/TrueMotionCore-Swift.h</key>
@@ -73,14 +73,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qCLQWUkcyo4VOPMEMfKjjQJjafripP6iQiDq6/eYsmU=
+			8fXKD5XC/ulnywZ4RJTWB0C4Yy55k5nWiDWmKoMpdn4=
 			</data>
 		</dict>
 		<key>Modules/TrueMotionCore.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qCLQWUkcyo4VOPMEMfKjjQJjafripP6iQiDq6/eYsmU=
+			8fXKD5XC/ulnywZ4RJTWB0C4Yy55k5nWiDWmKoMpdn4=
 			</data>
 		</dict>
 		<key>Modules/TrueMotionCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -94,14 +94,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UOjyDlG+L1kXTH/IPPDPjBrQYqQbDCxo63X+kZZ/AD8=
+			AXY4EzvZWXStxPBGOHDNXwpqnXUUCHwVv0cqftFkQI4=
 			</data>
 		</dict>
 		<key>Modules/TrueMotionCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EOQfYM8ZM6BF7OC+ev3CBoFxqKziiXQf3vTt2hFvehY=
+			IGj1Ob8JXA0uNDJVVMEuFf7+/naBq7TZZMplY1KKL/o=
 			</data>
 		</dict>
 		<key>Modules/TrueMotionCore.swiftmodule/x86_64.swiftdoc</key>
@@ -115,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UOjyDlG+L1kXTH/IPPDPjBrQYqQbDCxo63X+kZZ/AD8=
+			AXY4EzvZWXStxPBGOHDNXwpqnXUUCHwVv0cqftFkQI4=
 			</data>
 		</dict>
 		<key>Modules/TrueMotionCore.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EOQfYM8ZM6BF7OC+ev3CBoFxqKziiXQf3vTt2hFvehY=
+			IGj1Ob8JXA0uNDJVVMEuFf7+/naBq7TZZMplY1KKL/o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

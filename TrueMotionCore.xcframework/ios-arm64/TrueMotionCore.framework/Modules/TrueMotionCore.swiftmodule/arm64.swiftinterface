@@ -6,12 +6,9 @@ import Swift
 public enum Endpoint {
 }
 @_hasMissingDesignatedInitializers final public class TMCore {
-  public static var networkService: TrueMotionCore.NetworkService {
-    get
-  }
-  public static var authenticationManager: TrueMotionCore.AuthenticationManager {
-    get
-  }
+  final public var networkService: TrueMotionCore.NetworkService!
+  final public var authenticationManager: TrueMotionCore.AuthenticationManager!
+  public static var shared: TrueMotionCore.TMCore
   public static func initialize(with configuration: TrueMotionCore.TMCoreConfiguration)
   @objc deinit
 }
@@ -30,8 +27,7 @@ public enum TrueMotionAuthenticationError : Foundation.LocalizedError {
 public struct TMCoreConfiguration {
   public let baseURL: Foundation.URL
   public let companyID: Swift.String
-  public let timeoutInterval: Foundation.TimeInterval
-  public init(baseURL: Foundation.URL, companyID: Swift.String, timeoutInterval: Foundation.TimeInterval)
+  public init(baseURL: Foundation.URL, companyID: Swift.String)
 }
 public enum HTTPMethod : Swift.String {
   case connect
@@ -49,8 +45,7 @@ public enum HTTPMethod : Swift.String {
     get
   }
 }
-public protocol NetworkService {
-  var timeoutInterval: Foundation.TimeInterval { get set }
+public protocol NetworkService : AnyObject {
   func request(endpoint: Foundation.URL, method: TrueMotionCore.HTTPMethod, onComplete: @escaping (Swift.Result<TrueMotionCore.NetworkServiceResult, Swift.Error>) -> Swift.Void)
   func request<Parameter>(endpoint: Foundation.URL, method: TrueMotionCore.HTTPMethod, parameter: Parameter, onComplete: @escaping (Swift.Result<TrueMotionCore.NetworkServiceResult, Swift.Error>) -> Swift.Void) where Parameter : Swift.Encodable
   func request<Model>(type: Model.Type, endpoint: Foundation.URL, method: TrueMotionCore.HTTPMethod, onComplete: @escaping (Swift.Result<Model, Swift.Error>) -> Swift.Void) where Model : Swift.Decodable
